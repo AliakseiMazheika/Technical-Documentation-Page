@@ -6,16 +6,14 @@ html, body {
 }
 
 #navbar {
+  background-color: #fff;
   position: fixed;
-  min-width: 100px;
   top: 0;
   left: 0;
   width: 300px;
   height: 100%;
-border-right-style: solid;
-border-right-color: #ffbb29;
-border-left-color: #ffcc01;
-border-bottom-color: #ffffcc;
+  border-right: solid;
+  border-color: yellow;
 }
 
 header {
@@ -47,7 +45,7 @@ margin: 0px;
 }
 
 #navbar a {
-  display: fixed;
+  display: block;
   padding: 10px 30px;
   color: black;
 text-decoration: none;
@@ -85,30 +83,35 @@ margin: 20px;
 border-radius: 7px;
 }
 
-@media(max-width: 790px) {
+/*smartphones*/
+
+@media only screen and (max-width: 815px) {
   #navbar ul {
     border: 2px solid;
     height: 200px;
   }
-  
-    #navbar {
-background-color: #fff;
-position: absolute;
-top: 0;
-padding: 0;
-margin: 0;
-z-index: 1;
-border: none;
-width: 100%;
-max-height: 300px;
+
+  #navbar {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 0px solid;
   }
+  
   #main-doc {
     position: relative;
-    margin-left: 0px;margin-top: 250px;
+    margin-left: 0px;
+    margin-top: 270px;
   }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 400px) {
   #main-doc {
     margin-left: -15px;
   }
@@ -116,6 +119,6 @@ max-height: 300px;
     margin-left: -30px;
     width: 100%;
     padding: 15px;
-    min-width: 133px;
+    min-width: 250px;
   }
 }
