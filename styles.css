@@ -30,6 +30,7 @@ margin: 0px;
 }
 
 #navbar ul {
+  position: fixed;
   height: 90%;
   padding: 0;
   overflow-y: auto;
@@ -93,7 +94,7 @@ border-radius: 7px;
 
   #navbar {
     background-color: #fff;
-    position: absolute;
+    position: fixed;
     top: 0;
     padding: 0;
     margin: 0;
