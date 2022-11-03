@@ -103,7 +103,7 @@ border-radius: 7px;
     height: auto;
   }
 
-  #nav-link {
+  .nav-link {
     max-height: 35vh;
     width: 100%;
   } 
