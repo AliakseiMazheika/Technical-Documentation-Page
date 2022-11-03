@@ -1,5 +1,5 @@
 body {
-  min-width: 310px;
+  width: 290px;
   color: #4d4e53;
   background-color: #fff;
   font-family: Times new roman, sans-serif;
@@ -8,14 +8,14 @@ body {
 
 #navbar {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 0px;
+  left: 0px;
   width: 310px;
   height: 100%;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-color: green;
-}
+  }
 
 header {
   color: green;
@@ -23,7 +23,6 @@ header {
   text-align: center;
   font-size: 1.9em;
   font-weight: thin;
-  position: sticky;
 }
 
 #main-doc header {
@@ -32,7 +31,7 @@ margin: 0px;
 }
 
 #navbar ul {
-  height: 88%;
+  height: 100%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -51,11 +50,12 @@ margin: 0px;
   color: black;
   text-decoration: none;
   cursor: pointer;
+  display: block;
 }
 
 #main-doc {
   position: absolute;
-  margin-left: 310;
+  margin-left: 310px;
   padding: 50px;
   margin-bottom: 100px;
 }
@@ -94,7 +94,7 @@ code {
 
   #navbar {
     background-color: white;
-    position: fixed;
+    position: absolute;
     top: 0;
     padding: 0;
     margin: 0;
@@ -112,7 +112,7 @@ code {
   }
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 400px) {
  #main-doc {
     margin-left: -10px;
   }
