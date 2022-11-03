@@ -102,7 +102,12 @@ border-radius: 7px;
     border-style: none;
     height: auto;
   }
- 
+
+  #nav-link {
+    max-height: 35vh;
+    width: 100%;
+  } 
+
   main {
     margin: auto;
     margin-left: 1vw;
