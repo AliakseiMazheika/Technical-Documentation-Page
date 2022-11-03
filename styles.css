@@ -1,5 +1,5 @@
 body {
-  min-width: 300px;
+  min-width: 310px;
   color: #4d4e53;
   background-color: #fff;
   font-family: Times new roman, sans-serif;
@@ -8,9 +8,9 @@ body {
 
 #navbar {
   position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 300px;
+  top: 10px;
+  left: 10px;
+  width: 310px;
   height: 100%;
   border-style: solid;
   border-width: 2px;
@@ -23,6 +23,7 @@ header {
   text-align: center;
   font-size: 1.9em;
   font-weight: thin;
+  position: sticky;
 }
 
 #main-doc header {
@@ -83,9 +84,9 @@ code {
   border-radius: 7px;
 }
 
-/*smartphones*/
+/*smart-device*/
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 810px) {
   #navbar ul {
     border: 1px solid;
     height: 200px;
@@ -93,7 +94,7 @@ code {
 
   #navbar {
     background-color: white;
-    position: absolute;
+    position: fixed;
     top: 0;
     padding: 0;
     margin: 0;
@@ -105,13 +106,13 @@ code {
   } 
 
   #main-doc {
-    position: relative;
+    position: fixed;
     margin-left: 0px;
     margin-top: 270px;
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 810px) {
  #main-doc {
     margin-left: -10px;
   }
@@ -123,6 +124,5 @@ code {
     padding-left: 10px;
     padding-right: 45px;
     min-width: 233px;
-  }
   }
 }
