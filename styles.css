@@ -115,6 +115,10 @@ code {
     margin-left: 0px;
     margin-top: 270px;
   }
+  span {
+  color: red;
+  font-size: 0.5em;
+  }
 }
 
 @media only screen and (max-width: 400px) {
