@@ -21,8 +21,13 @@ header {
   color: green;
   margin: 15px;
   text-align: center;
-  font-size: 1.9em;
+  font-size: 1.2em;
   font-weight: thin;
+}
+
+span {
+  color: red;
+  font-size: 0.5em;
 }
 
 #main-doc header {
